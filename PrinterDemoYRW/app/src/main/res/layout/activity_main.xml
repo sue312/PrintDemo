@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#786b78"
+    tools:context="com.nbbse.printerdemo.MainActivity"
+    tools:ignore="MergeRootFrame" >
+    
+<!--     <ListView 
+        android:id="@+id/mainlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+ -->
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="25dp"
+	    android:layout_marginBottom="10dp"
+	    android:layout_marginLeft="15dp"
+	    android:layout_marginRight="15dp"
+	    android:orientation="vertical">
+ 	<Button
+ 	    android:id="@+id/button1"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_marginTop="10dp"
+ 	    android:textSize="16dp"
+ 	    android:background="#ffffff"
+ 	    android:text="@string/activity_main_text1" />
+ 	<Button
+ 	    android:id="@+id/button2"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_marginTop="10dp"
+ 	    android:textSize="16dp"
+ 	    android:background="#ffffff"
+ 	    android:text="@string/activity_main_text2" />
+ 	<Button
+ 	    android:id="@+id/button3"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_marginTop="10dp"
+ 	    android:textSize="16dp"
+ 	    android:background="#ffffff"
+ 	    android:text="@string/activity_main_text3" />
+ 	<Button
+ 	    android:id="@+id/button4"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_marginTop="10dp"
+ 	    android:textSize="16dp"
+ 	    android:background="#ffffff"
+ 	    android:text="@string/activity_main_text4" />
+ 	<Button
+ 	    android:id="@+id/button5"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_marginTop="10dp"
+ 	    android:textSize="16dp"
+ 	    android:background="#ffffff"
+ 	    android:text="@string/activity_main_text5" />
+ 	<Button
+ 	    android:id="@+id/button6"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_marginTop="10dp"
+ 	    android:textSize="16dp"
+ 	    android:background="#ffffff"
+ 	    android:text="@string/activity_main_text6" />
+ 	<Button
+ 	    android:id="@+id/button7"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_marginTop="10dp"
+ 	    android:textSize="16dp"
+ 	    android:background="#ffffff"
+ 	    android:text="@string/activity_main_text7" />
+ 	
+ 	</LinearLayout>
+</LinearLayout>        
+

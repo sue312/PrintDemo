@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nbbse.printerdemo"
+    android:versionCode="6"
+    android:versionName="1.5" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        <activity
+            android:name="com.nbbse.printerdemo.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nbbse.printerdemo.BusChooseActivity"
+            android:label="choose bus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.BusTicketPaymentChooseActivity"
+            android:label="choose payment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.BusTicketBankActivity"
+            android:label="choose payment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.BusTicketPreviewActivity"
+            android:label="preview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.TopupEnterNumberActivity"
+            android:label="Input Number and Amount"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.TopupPaymentChooseActivity"
+            android:label="choose payment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.TopupPreviewActivity"
+            android:label="choose payment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.SendMoneyInputActivity"
+            android:label="Send Money"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.SendMoneyPreviewActivity"
+            android:label="Send Money"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.nbbse.printerdemo.ReceiveMoneyInputActivity"
+            android:label="Receive Money"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.ReceiveMoneyDisplayActivity"
+            android:label="Display"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.ReceiveMoneyPreviewActivity"
+            android:label="Preview"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.nbbse.printerdemo.BillPaymentActivity"
+            android:label="Bill Payment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.BillPaymentChooseActivity"
+            android:label="Bill Payment choose"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.BillPreviewActivity"
+            android:label="Bill Payment preview"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.nbbse.printerdemo.LottoInputActivity"
+            android:label="Lottory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.LottoPreviewActivity"
+            android:label="Lottory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.RetailMainActivity"
+            android:label="Retail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.RetailShoppingActivity"
+            android:label="Shopping"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.RetailPaymentActivity"
+            android:label="Payment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.RetailPreviewActivity"
+            android:label="Payment"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.nbbse.printerdemo.RetailSettingsActivity"
+            android:label="Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.RetailInventoryActivity"
+            android:label="Inventory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.RetailReportActivity"
+            android:label="Report"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.nbbse.printerdemo.SettingsActivity"
+            android:label="Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.SettingsItemDataActivity"
+            android:label="Item Database"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.SettingsItemDetailActivity"
+            android:label="Detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.SettingsBillDataActivity"
+            android:label="Bill Database"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.nbbse.printerdemo.CreateAccountActivity"
+            android:label="Create Account"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.CreateAccountPreviewActivity"
+            android:label="Create Account Preview"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.nbbse.printerdemo.CreditAccountActivity"
+            android:label="Credit Account"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nbbse.printerdemo.CreditAccountPreviewActivity"
+            android:label="Credit Account Preview"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.nbbse.printerdemo.AutoBootBroadcast">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+
+        <activity android:name="com.nbbse.printerdemo.barcoder.util.CaptureActivity"
+            android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+
+
+    </application>
+
+</manifest>

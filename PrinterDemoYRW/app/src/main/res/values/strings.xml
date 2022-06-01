@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PrinterDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="activity_main_text1">Bus Ticket</string>
+    <string name="activity_main_text2">Airtime Voucher</string>
+    <string name="activity_main_text3">Money Transfer</string>
+    <string name="activity_main_text4">Bill Payment</string>
+    <string name="activity_main_text5">Lottery</string>
+    <string name="activity_main_text6">Retail Casher</string>
+    <string name="activity_main_text7">Settings</string>
+
+    <string name="bill_payment_text1">BILL PAYMENT</string>
+    <string name="bill_payment_text2">Enter the data required below or use the camera to scan the QR code present in the bill.</string>
+    <string name="bill_payment_text3">Scan</string>
+    <string name="bill_payment_text4">First Name: </string>
+    <string name="bill_payment_text5">Last Name: </string>
+    <string name="bill_payment_text6">Phone Number: </string>
+    <string name="bill_payment_text7">Validate</string>
+
+    <string name="bill_payment_choose.xml_text1">You are about to pay the Bill Number:</string>
+    <string name="bill_payment_choose.xml_text2">Amount to Pay:</string>
+    <string name="bill_payment_choose.xml_text3">You have required a Top Up Ticket.</string>
+    <string name="bill_payment_choose.xml_text4">Please choose the payment method.</string>
+    <string name="bill_payment_choose.xml_text5">CASH</string>
+    <string name="bill_payment_choose.xml_text6">MOBIBANK</string>
+
+    <string name="bill_preview.xml_text1">We confirm that your bill is fully paid.</string>
+    <string name="bill_preview.xml_text2">Print</string>
+
+    <string name="bus_bank.xml_text1">MOBIBANK Payment</string>
+    <string name="bus_bank.xml_text2">textPersonName</string>
+    <string name="bus_bank.xml_text3">Last Name</string>
+    <string name="bus_bank.xml_text4">textPersonName</string>
+    <string name="bus_bank.xml_text5">Phone Number</string>
+    <string name="bus_bank.xml_text6">Account Number</string>
+    <string name="bus_bank.xml_text7">Password</string>
+    <string name="bus_bank.xml_text8">QR Code</string>
+    <string name="bus_bank.xml_text9">Validate</string>
+
+    <string name="bus_choose.xml_text1">MOBIBUS</string>
+    <string name="bus_choose.xml_text2">Please choose a bus: </string>
+    <string name="bus_choose.xml_text3">Validate</string>
+
+    <string name="bus_payment_choose.xml_text1">Amount to Pay:</string>
+    <string name="bus_payment_choose.xml_text2">You have required a Bus Ticket.</string>
+    <string name="bus_payment_choose.xml_text3">Please choose the payment method.</string>
+    <string name="bus_payment_choose.xml_text4">CASH</string>
+    <string name="bus_payment_choose.xml_text5">MOBIBANK</string>
+
+    <string name="bus_ticket_preview_text1">MOBI BUS</string>
+    <string name="bus_ticket_preview_text2">ONE WAY TICKET</string>
+    <string name="bus_ticket_preview_text3">Departure:</string>
+    <string name="bus_ticket_preview_text4">Arrival:</string>
+    <string name="bus_ticket_preview_text5">Duration:</string>
+    <string name="bus_ticket_preview_text6">Single Fare:</string>
+    <string name="bus_ticket_preview_text7">Bus No: 324      TNo: H4K9DJ      Driver No: 143</string>
+    <string name="bus_ticket_preview_text8">Thank you for choosing MobiWire !</string>
+    <string name="bus_ticket_preview_text9">Print</string>
+
+    <string name="create_account_text1">Create MobiBank Account</string>
+    <string name="create_account_text2">First Name</string>
+    <string name="create_account_text3">Last Name</string>
+    <string name="create_account_text4">Phone Number</string>
+    <string name="create_account_text5">First Deposit</string>
+    <string name="create_account_text6">All fields are mandatory!!!</string>
+    <string name="create_account_text7">Validate</string>
+
+    <string name="create_account_preview_text1">MobiBank Account</string>
+    <string name="create_account_preview_text2">Please find the details below:</string>
+    <string name="create_account_preview_text3">(Password may not show here. Suppose sent by server.)</string>
+    <string name="create_account_preview_text4">Thank you for chosing MobiWire Solution!</string>
+    <string name="create_account_preview_text5">Print</string>
+
+    <string name="credit_account_text1">CASH IN</string>
+    <string name="credit_account_text2">MobiBank Account Number</string>
+    <string name="credit_account_text3">textPersonName</string>
+    <string name="credit_account_text4">textPersonName</string>
+    <string name="credit_account_text5">Deposit</string>
+    <string name="credit_account_text6">Validate</string>
+
+    <string name="credit_account_preview_text1">CASH IN</string>
+    <string name="credit_account_preview_text2">Thank you for chosing MobiWire Solution!</string>
+    <string name="credit_account_preview_text3">Print</string>
+
+    <string name="lottery_preview_text1">Good Luck for your draw on</string>
+    <string name="lottery_preview_text2">Your numbers:</string>
+    <string name="lottery_preview_text3">Amount($): </string>
+    <string name="lottery_preview_text4">Thanks for chosing MobiWire solution!</string>
+    <string name="lottery_preview_text5">Print</string>
+
+    <string name="lottery_input_text1">Please choose your number:</string>
+    <string name="lottery_input_text2">You choosed:</string>
+    <string name="lottery_input_text3">Amount ($)</string>
+    <string name="lottery_input_text4">numberDecimal</string>
+    <string name="lottery_input_text5">Cancel</string>
+    <string name="lottery_input_text6">Reset</string>
+    <string name="lottery_input_text7">Validate</string>
+
+    <string name="receive_money_text1">Enter the transaction number:</string>
+    <string name="receive_money_text2">Validate</string>
+
+    <string name="receive_money_display_text1">MOBITRANSFER</string>
+    <string name="receive_money_display_text2">RECEIVING CASH</string>
+    <string name="receive_money_display_text3">Phone Number:</string>
+    <string name="receive_money_display_text4">Name of the receiver:</string>
+    <string name="receive_money_display_text5">Date of Birth:</string>
+    <string name="receive_money_display_text6">Location:</string>
+    <string name="receive_money_display_text7">Amount:</string>
+    <string name="receive_money_display_text8">Validate</string>
+
+    <string name="receive_money_preview_text1">MobiTransfer</string>
+    <string name="receive_money_preview_text2">Receiving Cash</string>
+    <string name="receive_money_preview_text3">Signature:________________________</string>
+    <string name="receive_money_preview_text4">Print</string>
+
+    <string name="retail_inventory_text1">INVENTORY</string>
+    <string name="retail_inventory_text2">Item List</string>
+    <string name="retail_inventory_text3">price</string>
+    <string name="retail_inventory_text4">qtty</string>
+    <string name="retail_inventory_text5">Print</string>
+
+    <string name="retail_main_text1">RETAIL</string>
+    <string name="retail_main_text2">Shopping</string>
+    <string name="retail_main_text3">Settings</string>
+
+    <string name="retail_preview_text1">MobiWire</string>
+    <string name="retail_preview_text2">79 Avenue France Arago</string>
+    <string name="retail_preview_text3">32000 Nanterre</string>
+    <string name="retail_preview_text4">Item List</string>
+    <string name="retail_preview_text5">price</string>
+    <string name="retail_preview_text6">qtty</string>
+    <string name="retail_preview_text7">*** VAT EUR ***</string>
+    <string name="retail_preview_text8">Thank you for chosing MobiWire solution!</string>
+    <string name="retail_preview_text9">Print</string>
+
+    <string name="retail_report_text1">Validate</string>
+
+    <string name="retail_setting_text1">SETTINGS</string>
+    <string name="retail_setting_text2">Inventory</string>
+    <string name="retail_setting_text3">Sales Report</string>
+
+    <string name="retail_shopping_text1">SHOPPING</string>
+
+    <string name="retail_shopping_text2">Scan the item or enter its code.</string>
+    <string name="retail_shopping_text3">Item List</string>
+    <string name="retail_shopping_text4">price</string>
+    <string name="retail_shopping_text5">qtty</string>
+    <string name="retail_shopping_text6">Add</string>
+    <string name="retail_shopping_text7">Scan</string>
+    <string name="retail_shopping_text8">Validate</string>
+
+    <string name="send_money_text1">Phone Number of the receiver:</string>
+    <string name="send_money_text2">First Name of the receiver:</string>
+    <string name="send_money_text3">Last Name of the receiver:</string>
+    <string name="send_money_text4">Date of Birth:</string>
+    <string name="send_money_text5">Location:</string>
+    <string name="send_money_text6">Amount ($):</string>
+    <string name="send_money_text7">Validate</string>
+
+    <string name="send_money_preview_text1">MobiTransfer</string>
+    <string name="send_money_preview_text2">Sending Cash</string>
+    <string name="send_money_preview_text3">ACME Signature:_________________</string>
+    <string name="send_money_preview_text4">You will receive an SMS with a secret code. This secret code will be requested when withdrawing the money.</string>
+    <string name="send_money_preview_text5">Thank you for chosing MobiWire solution!</string>
+    <string name="send_money_preview_text6">Print</string>
+
+    <string name="settings_text1">SETTINGS</string>
+    <string name="settings_text2">Item Database</string>
+    <string name="settings_text3">Bill Database</string>
+    <string name="settings_text4">Customer Management</string>
+
+    <string name="settings_bill_data_text1">  Bills</string>
+    <string name="settings_bill_data_text2">Add bill:</string>
+    <string name="settings_bill_data_text3">Enter amount of bill</string>
+    <string name="settings_bill_data_text4">Add</string>
+    <string name="settings_bill_data_text5">Unpaid Bill list:</string>
+
+    <string name="settings_item_data_text1">Item Database</string>
+    <string name="settings_item_data_text2">Item List</string>
+    <string name="settings_item_data_text3">price</string>
+    <string name="settings_item_data_text4">qtty</string>
+    <string name="settings_item_data_text5">Add New</string>
+
+    <string name="settings_idtm_detail_text1">Item Name</string>
+    <string name="settings_idtm_detail_text2">Item Barcode</string>
+    <string name="settings_idtm_detail_text3">Scan</string>
+    <string name="settings_idtm_detail_text4">Unit Price</string>
+    <string name="settings_idtm_detail_text5">Quantity</string>
+    <string name="settings_idtm_detail_text6">Cancel</string>
+    <string name="settings_idtm_detail_text7">Validate</string>
+
+    <string name="topup_enter_number_text1">TOP UP</string>
+    <string name="topup_enter_number_text2">Airtime Voucher</string>
+    <string name="topup_enter_number_text3">Phone Number:</string>
+    <string name="topup_enter_number_text4">Amount($):</string>
+    <string name="topup_enter_number_text5">Validate</string>
+
+    <string name="topup_payment_choose_text1">Amount to Pay:</string>
+    <string name="topup_payment_choose_text2">You have required a Top Up Ticket.</string>
+    <string name="topup_payment_choose_text3">Please choose the payment method.</string>
+    <string name="topup_payment_choose_text4">CASH</string>
+    <string name="topup_payment_choose_text5">MOBIBANK</string>
+
+    <string name="topup_preview_text1">TOP UP</string>
+    <string name="topup_preview_text2">You have requested an airtime voucher.</string>
+    <string name="topup_preview_text3">Please use the following code to credit your</string>
+    <string name="topup_preview_text4">account.</string>
+    <string name="topup_preview_text5">TOP UP CODE</string>
+    <string name="topup_preview_text6">Transaction ID</string>
+    <string name="topup_preview_text7">Print</string>
+
+</resources>

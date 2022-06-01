@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal" >
+    
+    <TextView 
+        android:id="@+id/item" 
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal" /> 
+    <TextView
+        android:id="@+id/barcode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal" />    
+        
+    <TextView 
+        android:id="@+id/price" 
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal" /> 
+        
+    <TextView 
+        android:id="@+id/qtty" 
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>

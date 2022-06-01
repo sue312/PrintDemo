@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mobiwire_logo" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22dp"
+        android:text="Create MobiBank Account" />
+    
+    
+    <EditText
+        android:id="@+id/edit_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+    	android:layout_marginRight="30dp"
+    	android:textSize="16dp"
+    	android:maxLength="15"
+    	android:hint="First Name"
+    	android:inputType="textPersonName" />
+    
+    <EditText
+        android:id="@+id/edit_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+    	android:layout_marginRight="30dp"
+    	android:textSize="16dp"
+    	android:maxLength="15"
+    	android:hint="Last Name"
+    	android:inputType="textPersonName" />
+    
+    <EditText
+        android:id="@+id/edit_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+    	android:layout_marginRight="30dp"
+    	android:textSize="16dp"
+    	android:maxLength="20"
+    	android:hint="Phone Number"
+        android:phoneNumber="true" />
+    
+    <EditText
+        android:id="@+id/edit_deposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+    	android:layout_marginRight="30dp"
+    	android:textSize="16dp"
+    	android:maxLength="8"
+    	android:hint="First Deposit"
+        android:inputType="numberDecimal" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:text="All fields are mandatory!!!" />
+    
+    <Button
+        android:id="@+id/button_create"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#0ee861"
+        android:textColor="#ffffff"
+        android:text="Validate" />
+
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical" >
+    
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mobiwire_logo" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="30dp"
+            android:text="SHOPPING" />
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Scan the item or enter its code." />
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal" > 
+   
+        <TextView 
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="4"
+            android:text="Item List" /> 
+   
+        <TextView 
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="price" /> 
+   
+        <TextView 
+            android:id="@+id/addr" 
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:gravity="center"
+            android:text="qtty" />    
+    </LinearLayout> 
+    
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/edit_barcode"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="14dp"
+            android:inputType="numberSigned" />
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_marginLeft="5dp"
+            android:background="#68aae3"
+	       	android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:textSize="14dp"
+            android:text="Add" />
+        <Button
+	        android:id="@+id/button_scan"
+	        android:layout_width="wrap_content"
+	        android:layout_height="26dp"
+	        android:layout_marginLeft="5dp"
+	        android:background="#68aae3"
+	       	android:textColor="#ffffff"
+	       	android:layout_gravity="center_vertical"
+	       	android:textSize="14dp"
+	        android:text="Scan" />
+    </LinearLayout>
+    
+    <ListView 
+        android:id="@+id/lv" 
+        android:layout_width="fill_parent" 
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" > 
+    </ListView> 
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal" >
+
+	    <Button
+	        android:id="@+id/button_ok"
+	        android:layout_width="130dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:background="#0ee861"
+	       	android:textColor="#ffffff"
+	        android:text="Validate" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mobiwire_logo" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22dp"
+        android:text="CASH IN" />
+    
+    <EditText
+        android:id="@+id/edit_accountnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp"
+    	android:textSize="16dp"
+    	android:maxLength="15"
+    	android:hint="MobiBank Account Number"
+        android:inputType="numberSigned" />
+    
+    <EditText
+        android:id="@+id/edit_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp"
+    	android:maxLength="15"
+    	android:visibility="gone"
+    	android:inputType="textPersonName" />
+    
+    <EditText
+        android:id="@+id/edit_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp"
+    	android:maxLength="15"
+    	android:visibility="gone"
+    	android:inputType="textPersonName" />
+
+    
+    <EditText
+        android:id="@+id/edit_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp"
+    	android:maxLength="20"
+    	android:visibility="gone"
+        android:phoneNumber="true" />
+    
+    <EditText
+        android:id="@+id/edit_credit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp"
+    	android:textSize="16dp"
+    	android:maxLength="8"
+    	android:hint="Deposit"
+        android:inputType="numberDecimal" />
+    
+    <Button
+        android:id="@+id/button_credit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="#0ee861"
+        android:textColor="#ffffff"
+        android:text="Validate" />
+
+</LinearLayout>
