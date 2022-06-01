@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="20dp"
-        android:text="MOBIBUS" />
+        android:text="@string/bus_choose.xml_text1" />
     
     <TextView
         android:id="@+id/text_choosebus"
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="10dp"
-        android:text="Please choose a bus: " />
+        android:text="@string/bus_choose.xml_text2" />
     
     <Spinner
         android:id="@+id/spinner_bus"
@@ -49,6 +49,6 @@
         android:layout_gravity="right"
         android:layout_marginTop="80dp"
         android:background="#0ee861"
-        android:text="Validate"
+        android:text="@string/bus_choose.xml_text3"
         android:textColor="#ffffff" />
 </LinearLayout>

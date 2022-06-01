@@ -10,7 +10,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="100dp"
         android:textSize="30dp"
-        android:text="Amount to Pay:" />
+        android:text="@string/topup_payment_choose_text1" />
     
     <TextView
         android:id="@+id/text_amount"
@@ -31,11 +31,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
-        android:text="You have required a Top Up Ticket." />
+        android:text="@string/topup_payment_choose_text2" />
 	<TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Please choose the payment method." />
+        android:text="@string/topup_payment_choose_text3" />
 	</LinearLayout>
 	<LinearLayout
 	    android:layout_width="wrap_content"
@@ -49,12 +49,12 @@
 	        android:layout_width="130dp"
 	        android:layout_height="wrap_content"
 	        android:textSize="18dp"
-	        android:text="CASH" />
+	        android:text="@string/topup_payment_choose_text4" />
 	    <Button
 	        android:id="@+id/button_mobibank"
 	        android:layout_width="130dp"
 	        android:layout_height="wrap_content"
 	        android:textSize="18dp"
-	        android:text="MOBIBANK" />
+	        android:text="@string/topup_payment_choose_text5" />
 	</LinearLayout>
 </LinearLayout>

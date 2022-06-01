@@ -14,14 +14,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Please choose your number:" />
+        android:text="@string/lottery_input_text1" />
     
     <TextView
         android:id="@+id/text_numset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="You choosed:" />
+        android:text="@string/lottery_input_text2" />
     
     <GridView 
         android:id="@+id/grid_number"
@@ -44,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Amount ($)" />
+            android:text="@string/lottery_input_text3" />
         
         <EditText
             android:id="@+id/edit_amount"
@@ -69,7 +69,7 @@
 	        android:layout_marginTop="0dp"
 	        android:background="#e33c0d"
         	android:textColor="#ffffff"
-	        android:text="Cancel" />
+	        android:text="@string/lottery_input_text5" />
         
         <Button
 	        android:id="@+id/button_reset"
@@ -79,7 +79,7 @@
 	        android:layout_marginLeft="10dp"
 	        android:background="#e0d724"
         	android:textColor="#ffffff"
-	        android:text="Reset" />
+	        android:text="@string/lottery_input_text6" />
         
 	    <Button
 	        android:id="@+id/button_next"
@@ -89,7 +89,7 @@
 	        android:layout_marginLeft="10dp"
 	        android:background="#0ee861"
         	android:textColor="#ffffff"
-	        android:text="Validate" />
+	        android:text="@string/lottery_input_text7" />
     </LinearLayout>
 </LinearLayout>
 </ScrollView>

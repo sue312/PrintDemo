@@ -12,18 +12,18 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="22dp"
-        android:text="MOBITRANSFER" />
+        android:text="@string/receive_money_display_text1" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:textSize="20dp"
-        android:text="RECEIVING CASH" />
+        android:text="@string/receive_money_display_text2" />
 	<TextView
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
-	    android:text="Phone Number:" />
+	    android:text="@string/receive_money_display_text3" />
 	
 	<TextView
 	    android:id="@+id/text_phonenumber"
@@ -36,7 +36,7 @@
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
 	    android:layout_marginTop="10dp"
-	    android:text="Name of the receiver:" />
+	    android:text="@string/receive_money_display_text4" />
 
 	<TextView
 	    android:id="@+id/text_name"
@@ -48,7 +48,7 @@
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
 	    android:layout_marginTop="10dp"
-	    android:text="Date of Birth:" />
+	    android:text="@string/receive_money_display_text5" />
 	
 	<TextView
 	    android:id="@+id/text_birthday"
@@ -60,7 +60,7 @@
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
 	    android:layout_marginTop="10dp"
-	    android:text="Location:" />
+	    android:text="@string/receive_money_display_text6" />
 	
 	<TextView
 	    android:id="@+id/text_location"
@@ -72,7 +72,7 @@
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
 	    android:layout_marginTop="10dp"
-	    android:text="Amount:" />
+	    android:text="@string/receive_money_display_text7" />
 	
 	<TextView
 	    android:id="@+id/text_amount"
@@ -88,5 +88,5 @@
         android:layout_marginTop="10dp"
         android:background="#0ee861"
         android:textColor="#ffffff"
-        android:text="Validate" />
+        android:text="@string/receive_money_display_text8" />
 </LinearLayout>

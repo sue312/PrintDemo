@@ -21,7 +21,7 @@
 	    android:layout_height="wrap_content"
 	    android:layout_marginTop="50dp"
 	    android:textSize="16dp"
-	    android:hint="Item Name"
+	    android:hint="@string/settings_idtm_detail_text1"
 	    android:maxLength="15"
 	    android:layout_gravity="center_horizontal" />
 
@@ -36,7 +36,7 @@
 	        android:layout_height="wrap_content"
 	        android:layout_weight="5"
 	        android:textSize="16dp"
-		    android:hint="Item Barcode"
+		    android:hint="@string/settings_idtm_detail_text2"
 	        android:layout_gravity="center_vertical"
 	        android:maxLength="16"
 	        android:inputType="numberSigned" />
@@ -50,7 +50,7 @@
 		    android:background="#68aae3"
 	       	android:textColor="#ffffff"
 	       	android:textSize="16dp"
-		    android:text="Scan" />
+		    android:text="@string/settings_idtm_detail_text3" />
 	</LinearLayout>
     <EditText
         android:id="@+id/edit_price"
@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textSize="16dp"
-	    android:hint="Unit Price"
+	    android:hint="@string/settings_idtm_detail_text4"
 	    android:layout_gravity="center_horizontal"
 	    android:maxLength="8"
         android:inputType="numberDecimal" />
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textSize="16dp"
-	    android:hint="Quantity"
+	    android:hint="@string/settings_idtm_detail_text5"
 	    android:layout_gravity="center_horizontal"
 	    android:maxLength="6"
         android:inputType="numberSigned" />
@@ -86,7 +86,7 @@
             android:layout_height="wrap_content"
             android:background="#ff0000"
         	android:textColor="#ffffff"
-            android:text="Cancel" />
+            android:text="@string/settings_idtm_detail_text6" />
 	    <Button
 	        android:id="@+id/button_ok"
 	        android:layout_width="100dp"
@@ -94,6 +94,6 @@
 	        android:layout_marginLeft="20dp"
 	        android:background="#0ee861"
         	android:textColor="#ffffff"
-	        android:text="Validate" />
+	        android:text="@string/settings_idtm_detail_text7" />
 	</LinearLayout>
 </LinearLayout>

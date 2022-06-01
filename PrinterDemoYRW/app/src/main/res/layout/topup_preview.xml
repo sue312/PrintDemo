@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="18dp"
-        android:text="TOP UP" />
+        android:text="@string/topup_preview_text1" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
         android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal"
         android:textSize="14dp"
-        android:text="You have requested an airtime voucher." />
+        android:text="@string/topup_preview_text2" />
     
     <TextView
         android:layout_width="wrap_content"
@@ -28,12 +28,12 @@
         android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal"
         android:textSize="14dp"
-        android:text="Please use the following code to credit your" />
+        android:text="@string/topup_preview_text3" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="account." />
+        android:text="@string/topup_preview_text4" />
     
      
     <TextView
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
-        android:text="TOP UP CODE" />
+        android:text="@string/topup_preview_text5" />
     
     <TextView
         android:id="@+id/text_topup_code"
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
-        android:text="Transaction ID" />
+        android:text="@string/topup_preview_text6" />
     
     <TextView
         android:id="@+id/text_transnum"
@@ -81,6 +81,6 @@
         android:layout_gravity="center_horizontal"
         android:background="#b8c3f2"
         android:textColor="#ffffff"
-        android:text="Print" />
+        android:text="@string/topup_preview_text7" />
     
 </LinearLayout>

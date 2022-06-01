@@ -46,7 +46,7 @@
 	    android:layout_height="wrap_content"
 	    android:layout_marginTop="20dp"
 	    android:layout_gravity="center_horizontal"
-	    android:text="We confirm that your bill is fully paid." />
+	    android:text="@string/bill_preview.xml_text1" />
 	<TextView
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
@@ -73,5 +73,5 @@
         android:layout_gravity="center_horizontal"
         android:background="#b8c3f2"
         android:textColor="#ffffff"
-        android:text="Print" />
+        android:text="@string/bill_preview.xml_text2" />
 </LinearLayout>

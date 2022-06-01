@@ -25,12 +25,12 @@
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:layout_gravity="center_horizontal"
-	            android:text="MobiTransfer" />
+	            android:text="@string/send_money_preview_text1" />
 	        <TextView
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:layout_gravity="center_horizontal"
-	            android:text="Sending Cash" />
+	            android:text="@string/send_money_preview_text2" />
 	    </LinearLayout>
 	</LinearLayout>
 	
@@ -52,16 +52,16 @@
 	<TextView
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
-	    android:text="ACME Signature:_________________" />
+	    android:text="@string/send_money_preview_text3" />
 	
 	<TextView
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
-	    android:text="You will receive an SMS with a secret code. This secret code will be requested when withdrawing the money." />
+	    android:text="@string/send_money_preview_text4" />
 	<TextView
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
-	    android:text="Thank you for chosing MobiWire solution!" />
+	    android:text="@string/send_money_preview_text5" />
 	
 	<ImageView
         android:layout_width="wrap_content"
@@ -78,5 +78,5 @@
         android:layout_gravity="center_horizontal"
         android:background="#b8c3f2"
         android:textColor="#ffffff"
-        android:text="Print" />
+        android:text="@string/send_money_preview_text6" />
 </LinearLayout>

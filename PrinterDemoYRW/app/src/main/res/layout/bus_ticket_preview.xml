@@ -19,14 +19,14 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="0dp"
         android:textSize="40dp"
-        android:text="MOBI BUS" />
+        android:text="@string/bus_ticket_preview_text1" />
     
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="14dp"
-        android:text="ONE WAY TICKET" />
+        android:text="@string/bus_ticket_preview_text2" />
     
     <TextView
         android:id="@+id/text_datetime"
@@ -53,7 +53,7 @@
 	        android:layout_height="wrap_content"
 	        android:layout_marginLeft="10dp"
 	        android:textSize="14dp"
-	        android:text="Departure:" />
+	        android:text="@string/bus_ticket_preview_text3" />
 	    
 	    <TextView
 	        android:id="@+id/text_departure"
@@ -74,7 +74,7 @@
 	        android:layout_height="wrap_content"
 	        android:layout_marginLeft="10dp"
 	        android:textSize="14dp"
-	        android:text="Arrival:" />
+	        android:text="@string/bus_ticket_preview_text4" />
 	    
 	    <TextView
 	        android:id="@+id/text_arrival"
@@ -94,7 +94,7 @@
 	        android:layout_height="wrap_content"
 	        android:layout_marginLeft="10dp"
 	        android:textSize="14dp"
-	        android:text="Duration:" />
+	        android:text="@string/bus_ticket_preview_text5" />
 	    
 	    <TextView
 	        android:id="@+id/text_duration"
@@ -114,7 +114,7 @@
 	        android:layout_height="wrap_content"
 	        android:layout_marginLeft="10dp"
 	        android:textSize="14dp"
-	        android:text="Single Fare:" />
+	        android:text="@string/bus_ticket_preview_text6" />
 	    
 	    <TextView
 	        android:id="@+id/text_price"
@@ -131,7 +131,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="5dp"
         android:textSize="10dp"
-        android:text="Bus No: 324      TNo: H4K9DJ      Driver No: 143" />
+        android:text="@string/bus_ticket_preview_text7" />
     
     <ImageView
         android:layout_width="wrap_content"
@@ -146,7 +146,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="-10dp"
         android:textSize="10dp"
-        android:text="Thank you for choosing MobiWire !" />
+        android:text="@string/bus_ticket_preview_text8" />
    
     <Button
         android:id="@+id/button_print"
@@ -156,5 +156,5 @@
         android:layout_gravity="center_horizontal"
         android:background="#b8c3f2"
         android:textColor="#ffffff"
-        android:text="Print" />
+        android:text="@string/bus_ticket_preview_text9" />
 </LinearLayout>

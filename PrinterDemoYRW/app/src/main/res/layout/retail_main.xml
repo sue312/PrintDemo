@@ -21,7 +21,7 @@
             android:layout_marginLeft="10dp"
             android:layout_gravity="center_vertical"
             android:textSize="30dp"
-            android:text="RETAIL" />
+            android:text="@string/retail_main_text1" />
     </LinearLayout>
     
     <Button
@@ -31,7 +31,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="100dp"
         android:textSize="16dp"
-        android:text="Shopping" />
+        android:text="@string/retail_main_text2"/>
 
     <Button
         android:id="@+id/button_setting"
@@ -40,5 +40,5 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:textSize="16dp"
-        android:text="Settings" />
+        android:text="@string/retail_main_text3" />
 </LinearLayout>

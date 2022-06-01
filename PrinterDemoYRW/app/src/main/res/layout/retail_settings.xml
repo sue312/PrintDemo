@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="22dp"
-        android:text="SETTINGS" />
+        android:text="@string/retail_setting_text1" />
     
     <Button
         android:id="@+id/button_inventory"
@@ -25,7 +25,7 @@
         android:layout_marginTop="80dp"
         android:layout_gravity="center_horizontal"
         android:textSize="16dp"
-        android:text="Inventory" />
+        android:text="@string/retail_setting_text2" />
     
     <Button
         android:id="@+id/button_report"
@@ -34,6 +34,6 @@
         android:layout_marginTop="50dp"
         android:layout_gravity="center_horizontal"
         android:textSize="16dp"
-        android:text="Sales Report" />
+        android:text="@string/retail_setting_text3" />
     
 </LinearLayout>

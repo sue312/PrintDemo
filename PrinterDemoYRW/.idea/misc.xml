@@ -4,6 +4,41 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/bill_payment.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/bill_payment_choose.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/bill_preview.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/bus_bank.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/bus_choose.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/bus_payment_choose.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/bus_ticket_preview.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/create_account.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/create_account_preview.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/credit_account.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/credit_account_preview.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/lottery_preview.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/lottory_input.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/mainlist.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/receive_money.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/receive_money_display.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/receive_money_preview.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/retail_inventory.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/retail_item_list.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/retail_main.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/retail_preview.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/retail_report.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/retail_settings.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/retail_shopping.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/scan.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/send_money.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/send_money_preview.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/settings.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/settings_bill_data.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/settings_bill_list.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/settings_item_data.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/settings_item_detail.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/topup_enter_number.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/topup_payment_choose.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/topup_preview.xml" value="0.35572916666666665" />
       </map>
     </option>
   </component>

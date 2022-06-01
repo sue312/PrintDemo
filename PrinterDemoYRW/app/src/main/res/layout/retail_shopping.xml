@@ -24,14 +24,14 @@
             android:layout_marginLeft="10dp"
             android:layout_gravity="center_vertical"
             android:textSize="30dp"
-            android:text="SHOPPING" />
+            android:text="@string/retail_shopping_text1" />
     </LinearLayout>
     
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Scan the item or enter its code." />
+        android:text="@string/retail_shopping_text2" />
     
     
     <LinearLayout 
@@ -46,14 +46,14 @@
             android:layout_width="0dp" 
             android:layout_height="wrap_content" 
             android:layout_weight="4"
-            android:text="Item List" /> 
+            android:text="@string/retail_shopping_text3" />
    
         <TextView 
             android:layout_width="0dp" 
             android:layout_height="wrap_content" 
             android:layout_weight="2"
             android:gravity="center"
-            android:text="price" /> 
+            android:text="@string/retail_shopping_text4" />
    
         <TextView 
             android:id="@+id/addr" 
@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" 
             android:gravity="center"
-            android:text="qtty" />    
+            android:text="@string/retail_shopping_text5" />
     </LinearLayout> 
     
         <LinearLayout
@@ -86,7 +86,7 @@
 	       	android:textColor="#ffffff"
             android:layout_gravity="center_vertical"
             android:textSize="14dp"
-            android:text="Add" />
+            android:text="@string/retail_shopping_text6" />
         <Button
 	        android:id="@+id/button_scan"
 	        android:layout_width="wrap_content"
@@ -96,7 +96,7 @@
 	       	android:textColor="#ffffff"
 	       	android:layout_gravity="center_vertical"
 	       	android:textSize="14dp"
-	        android:text="Scan" />
+	        android:text="@string/retail_shopping_text7" />
     </LinearLayout>
     
     <ListView 
@@ -121,6 +121,6 @@
 	        android:layout_marginLeft="10dp"
 	        android:background="#0ee861"
 	       	android:textColor="#ffffff"
-	        android:text="Validate" />
+	        android:text="@string/retail_shopping_text8" />
     </LinearLayout>
 </LinearLayout>

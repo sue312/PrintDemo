@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="22dp"
-        android:text="CASH IN" />
+        android:text="@string/credit_account_preview_text1" />
     
     <TextView
         android:id="@+id/text_datetime"
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
-        android:text="Thank you for chosing MobiWire Solution!" />
+        android:text="@string/credit_account_preview_text2" />
     
     <Button
         android:id="@+id/button_print"
@@ -79,5 +79,5 @@
         android:layout_gravity="center_horizontal"
         android:background="#b8c3f2"
         android:textColor="#ffffff"
-        android:text="Print" />
+        android:text="@string/credit_account_preview_text3" />
 </LinearLayout>

@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter the transaction number:" />
+        android:text="@string/receive_money_text1" />
     
     <EditText
         android:id="@+id/edit_trans_num"
@@ -24,6 +24,6 @@
         android:layout_marginTop="100dp"
         android:background="#0ee861"
         android:textColor="#ffffff"
-        android:text="Validate" />
+        android:text="@string/receive_money_text2" />
 
 </LinearLayout>

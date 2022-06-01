@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:textSize="24dp"
         android:layout_gravity="center_horizontal"
-        android:text="MOBIBANK Payment" />
+        android:text="@string/bus_bank.xml_text1" />
     
     <EditText
         android:id="@+id/edit_firstname"
@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_gravity="center_horizontal"
-        android:hint="First Name"
+        android:hint="@string/bus_bank.xml_text2"
         android:textSize="16dp"
         android:inputType="textPersonName" />
     <EditText
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal"
-        android:hint="Last Name"
+        android:hint="@string/bus_bank.xml_text3"
         android:textSize="16dp"
         android:inputType="textPersonName" />
 	<EditText
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal"
-        android:hint="Phone Number"
+        android:hint="@string/bus_bank.xml_text5"
         android:textSize="16dp"
         android:inputType="phone" />
 	<EditText
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal"
-        android:hint="Account Number"
+        android:hint="@string/bus_bank.xml_text6"
         android:textSize="16dp"
         android:inputType="number" />
 	<EditText
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal"
-        android:hint="Password"
+        android:hint="@string/bus_bank.xml_text7"
         android:textSize="16dp"
         android:inputType="textPassword" />
 	<LinearLayout
@@ -69,7 +69,7 @@
 	        android:layout_height="wrap_content"
 	        android:background="#68aae3"
 	        android:textColor="#ffffff"
-	        android:text="QR Code" />
+	        android:text="@string/bus_bank.xml_text8" />
 	    <Button
 	        android:id="@+id/button_next"
 	        android:layout_width="120dp"
@@ -77,6 +77,6 @@
 			android:layout_marginLeft="10dp"	        
 	        android:background="#0ee861"
 	        android:textColor="#ffffff"
-	        android:text="Validate" />
+	        android:text="@string/bus_bank.xml_text9" />
     </LinearLayout>
 </LinearLayout>

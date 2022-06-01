@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="18dp"
-        android:text="BILL PAYMENT" />
+        android:text="@string/bill_payment_text1" />
     
     <TextView
         android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
         android:layout_marginTop="20dp"
         android:singleLine="false"
         android:textSize="14dp"
-        android:text="Enter the data required below or use the camera to scan the QR code present in the bill." />
+        android:text="@string/bill_payment_text2" />
     
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
         	android:layout_width="0dp"
         	android:layout_height="wrap_content"
         	android:layout_weight="5"
-        	android:hint="Bill Number"
+        	android:hint="@string/bill_payment_text8"
         	android:inputType="number"
         	android:maxLength="13"
         	android:textSize="16dp" />
@@ -46,7 +46,7 @@
 	        android:background="#68aae3"
 	       	android:textColor="#ffffff"
 	        android:textSize="16dp"
-	        android:text="Scan" />
+	        android:text="@string/bill_payment_text3" />
 
     </LinearLayout>
     <LinearLayout
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:textSize="16dp"
-            android:text="First Name: " />
+            android:text="@string/bill_payment_text4" />
        
 	    <EditText
 	        android:id="@+id/edit_firstname"
@@ -78,7 +78,7 @@
 	        android:background="#68aae3"
 	       	android:textColor="#ffffff"
 	        android:textSize="16dp"
-	        android:text="Scan" />
+	        android:text="@string/bill_payment_text3" />
 
     </LinearLayout>
     <LinearLayout
@@ -91,7 +91,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16dp"
-            android:text="Last Name: " />
+            android:text="@string/bill_payment_text5" />
        
 	    <EditText
 	        android:id="@+id/edit_lastname"
@@ -111,7 +111,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16dp"
-            android:text="Phone Number: " />
+            android:text="@string/bill_payment_text6" />
        
 	    <EditText
 	        android:id="@+id/edit_phonenumber"
@@ -131,5 +131,5 @@
         android:layout_gravity="center_horizontal"
         android:background="#0ee861"
         android:textColor="#ffffff"
-        android:text="Validate" />
+        android:text="@string/bill_payment_text7" />
 </LinearLayout>

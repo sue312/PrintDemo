@@ -21,7 +21,7 @@
             android:layout_marginLeft="10dp"
             android:layout_gravity="center_vertical"
             android:textSize="22dp"
-            android:text="  Bills" />
+            android:text="@string/settings_bill_data_text1" />
     </LinearLayout>
 
     <LinearLayout
@@ -31,13 +31,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Add bill:" />
+            android:text="@string/settings_bill_data_text2" />
         <EditText
             android:id="@+id/edit_amount"
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:textSize="16dp"
-            android:hint="Enter amount of bill"
+            android:hint="@string/settings_bill_data_text3"
             android:maxLength="8"
             android:inputType="numberDecimal" />
         <Button
@@ -45,14 +45,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16dp"
-            android:text="Add" />
+            android:text="@string/settings_bill_data_text4" />
     </LinearLayout>
     
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Unpaid Bill list:" />
+        android:text="@string/settings_bill_data_text5" />
     
     <ListView 
         android:id="@+id/lv" 

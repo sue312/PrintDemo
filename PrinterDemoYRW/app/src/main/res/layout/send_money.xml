@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Phone Number of the receiver:" />
+        android:text="@string/send_money_text1" />
     
     <EditText
         android:id="@+id/edit_receiver_phonenumber"
@@ -23,7 +23,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="First Name of the receiver:" />
+        android:text="@string/send_money_text2" />
     
     <EditText
         android:id="@+id/edit_receiver_firstname"
@@ -35,7 +35,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Last Name of the receiver:" />
+        android:text="@string/send_money_text3" />
     
     <EditText
         android:id="@+id/edit_receiver_lastname"
@@ -47,7 +47,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Date of Birth:" />
+        android:text="@string/send_money_text4" />
     
     <EditText
         android:id="@+id/edit_receiver_birthday"
@@ -60,7 +60,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Location:" />
+        android:text="@string/send_money_text5" />
     
     <EditText
         android:id="@+id/edit_receiver_location"
@@ -72,7 +72,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Amount ($):" />
+        android:text="@string/send_money_text6" />
     
     <EditText
         android:id="@+id/edit_send_amount"
@@ -89,5 +89,5 @@
         android:layout_marginTop="10dp"
         android:background="#0ee861"
         android:textColor="#ffffff"
-        android:text="Validate" />
+        android:text="@string/send_money_text7" />
 </LinearLayout>

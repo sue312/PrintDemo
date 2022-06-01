@@ -20,6 +20,7 @@
     <string name="bill_payment_text5">Last Name: </string>
     <string name="bill_payment_text6">Phone Number: </string>
     <string name="bill_payment_text7">Validate</string>
+    <string name="bill_payment_text8">Bill Number</string>
 
     <string name="bill_payment_choose.xml_text1">You are about to pay the Bill Number:</string>
     <string name="bill_payment_choose.xml_text2">Amount to Pay:</string>
@@ -32,7 +33,7 @@
     <string name="bill_preview.xml_text2">Print</string>
 
     <string name="bus_bank.xml_text1">MOBIBANK Payment</string>
-    <string name="bus_bank.xml_text2">textPersonName</string>
+    <string name="bus_bank.xml_text2">First Name</string>
     <string name="bus_bank.xml_text3">Last Name</string>
     <string name="bus_bank.xml_text4">textPersonName</string>
     <string name="bus_bank.xml_text5">Phone Number</string>
@@ -144,7 +145,6 @@
     <string name="retail_setting_text3">Sales Report</string>
 
     <string name="retail_shopping_text1">SHOPPING</string>
-
     <string name="retail_shopping_text2">Scan the item or enter its code.</string>
     <string name="retail_shopping_text3">Item List</string>
     <string name="retail_shopping_text4">price</string>

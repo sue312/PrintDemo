@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Good Luck for your draw on" />
+        android:text="@string/lottery_preview_text1" />
     
     <TextView
         android:id="@+id/text_lotto_datetime"
@@ -24,7 +24,7 @@
 	    android:layout_height="wrap_content"
 	    android:layout_gravity="center_horizontal"
 	    android:layout_marginTop="10dp"
-	    android:text="Your numbers:" />
+	    android:text="@string/lottery_preview_text2" />
 	
 	<TextView
 	    android:id="@+id/text_numlist"
@@ -44,7 +44,7 @@
 	    <TextView
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:text="Amount($): " />
+	        android:text="@string/lottery_preview_text3" />
 	    
 	    <TextView
 	        android:id="@+id/text_amount"
@@ -57,7 +57,7 @@
 	    android:layout_height="wrap_content"
 	    android:layout_gravity="center_horizontal"
 	    android:layout_marginTop="30dp"
-	    android:text="Thanks for chosing MobiWire solution!" />
+	    android:text="@string/lottery_preview_text4" />
 	
 	<TextView
 	    android:id="@+id/text_transnum"
@@ -82,6 +82,6 @@
 	    android:layout_gravity="center_horizontal"
 	    android:background="#b8c3f2"
         android:textColor="#ffffff"
-	    android:text="Print" />
+	    android:text="@string/lottery_preview_text5" />
 
 </LinearLayout>
